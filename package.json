@@ -1,0 +1,32 @@
+{
+  "name": "node-yaml-fuzzy-waddle",
+  "version": "1.0.0",
+  "description": "Node app to read and maybe write yaml from Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnny-cheng-nrhl/node-yaml-fuzzy-waddle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnny-cheng-nrhl/node-yaml-fuzzy-waddle/issues"
+  },
+  "homepage": "https://github.com/johnny-cheng-nrhl/node-yaml-fuzzy-waddle#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "js-yaml": "^4.0.0"
+  }
+}
